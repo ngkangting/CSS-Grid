@@ -1,8 +1,10 @@
-# Course Material and FAQ for my Advanced CSS Course
+# CSS Grid Layout from Advanced CSS and Sass: Flexbox, Grid, Animations and More!
 
-This repo contains starter files and the finished project files for all the projects contained in the course.
+This repository contains CSS Grid Layout with 3 different methods 
 
-Plus, I made all the course slides available for download, to make it easier to follow along the conceptual videos.
+- Line Numbers
+- Line Names
+- Name Grid Areas
 
 👇 ***Please read the following Frequently Asked Questions (FAQ) carefully before starting the course*** 👇
 
