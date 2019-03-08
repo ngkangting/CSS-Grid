@@ -26,7 +26,7 @@ Element that is the direct child of the Grid Container
 The vertical and horizontal lines that divide the grid and separate the columns and rows.
 ```
 
-![Grid Line Image](../master/img/Grid Line.png)
+![Grid Line Image](../img/Grid Line.png)
 
 - Grid Track
 
