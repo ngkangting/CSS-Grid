@@ -2,25 +2,33 @@
 
 CSS Grid Layout is the most powerful layout system available in CSS. It brings a two-dimensional layout tool to the web, with the ability to place items in rows and columns. With this powerful layout system available in CSS, it can replace float layouts, using less, more readable, and logical HTML and CSS.
 
+
 To work with CSS Grid Layout, we need to apply CSS rules both to a parent element (which becomes the Grid Container) and to that element's children (which becomes the Grid Items).
 
 ## CSS Grid Terminology
 
 Before diving into the concepts of CSS Grid, it is important to understand the terminology as the terms are conceptually similar. Thus, to avoid confusion, it is worthwhile spending a few minutes understanding the CSS Grid Terminology.
 
+
 - Grid Container
 
+```
 Parent element that holds the entire CSS Grid
+```
 
 - Grid Item
 
+```
 Element that is the direct child of the Grid Container
+```
 
 - Grid Line
 
+```
 The vertical and horizontal lines that divide the grid and separate the columns and rows.
+```
 
-![Grid Line Image](img\Grid Line.png)
+![Grid Line Image](../img/Grid Line.png)
 
 - Grid Track
 
