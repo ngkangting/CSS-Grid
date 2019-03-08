@@ -11,28 +11,58 @@ Before diving into the concepts of CSS Grid, it is important to understand the t
 - Grid Container
 
 ```
-Parent element that holds the entire CSS Grid
+Parent element that holds the entire CSS Grid.
 ```
 
 - Grid Item
 
 ```
-Element that is the direct child of the Grid Container
+Element that is the direct child of the Grid Container.
 ```
 
 - Grid Line
 
 ```
-The vertical and horizontal lines that divide the grid and separate the columns and rows.
+The vertical and horizontal lines that divide the Grid and separate the columns and rows.
+```
+
+- Gutter
+
+```
+The space between rows and columns in a grid.
 ```
 
 <img src="./img/GridLine.png" width="100" height="100" title="Grid Line Image">
 
-- Grid Track
-
 - Grid Cell
 
+```
+The space between two adjacent row and two adjacent column Grid lines. Essentially, it is a single unit of the Grid.
+```
+
+- Grid Row
+
+```
+A horizontal track of a Grid.
+```
+
+- Grid Column
+
+```
+A vertical track of a Grid.
+```
+
+- Grid Track
+
+```
+The space between two adjacent Grid lines. This space can be horizontal or vertical.
+```
+
 - Grid Area
+
+```
+A rectangular space surrounded by four grid lines. A grid area can contain any number of grid cells.
+```
 
 ## Getting Started with CSS Grid
 
