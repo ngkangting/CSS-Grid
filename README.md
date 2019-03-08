@@ -29,10 +29,8 @@ The vertical and horizontal lines that divide the Grid and separate the columns 
 - Gutter
 
 ```
-The space between rows and columns in a grid.
+The space between rows and columns in a Grid.
 ```
-
-<img src="./img/GridLine.png" width="100" height="100" title="Grid Line Image">
 
 - Grid Cell
 
@@ -87,6 +85,10 @@ grid-row: 1 / 3;                                // Position elements from 1st Ro
 
 grid-column: 1 / 3;                             // Position elements from 1st Column to 3rd Column
 ```
+
+## CSS Grid Properties
+
+<img src="./img/GridLine.png" width="100" height="100" title="Grid Line Image">
 
 ## CSS Grid Methods
 
