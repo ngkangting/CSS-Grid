@@ -6,19 +6,19 @@ To work with CSS Grid Layout, we need to apply CSS rules both to a parent elemen
 
 ## CSS Grid Terminology
 
-Before diving into the concepts of CSS Grid, it is important to understand the terminology as the terms are conceptually similar. Thus, to avoid confusion, it is worthwhile spending a few minutes understanding CSS Grid Terminology.
+Before diving into the concepts of CSS Grid, it is important to understand the terminology as the terms are conceptually similar. Thus, to avoid confusion, it is worthwhile spending a few minutes understanding the CSS Grid Terminology.
 
-- Grid Container
+### Grid Container
 
-- Grid Item
+### Grid Item
 
-- Grid Line
+### Grid Line
 
-- Grid Track
+### Grid Track
 
-- Grid Cell
+### Grid Cell
 
-- Grid Area
+#### Grid Area
 
 ## Getting Started with CSS Grid
 
