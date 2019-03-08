@@ -8,21 +8,29 @@ To work with CSS Grid Layout, we need to apply CSS rules both to a parent elemen
 
 Before diving into the concepts of CSS Grid, it is important to understand the terminology as the terms are conceptually similar. Thus, to avoid confusion, it is worthwhile spending a few minutes understanding the CSS Grid Terminology.
 
-### Grid Container
+#### Grid Container
 
-### Grid Item
+Parent element that holds the entire CSS Grid
 
-### Grid Line
+#### Grid Item
 
-### Grid Track
+Element that is the direct child of the Grid Container
 
-### Grid Cell
+#### Grid Line
+
+The vertical and horizontal lines that divide the grid and separate the columns and rows.
+
+img\Grid Line.png
+
+#### Grid Track
+
+#### Grid Cell
 
 #### Grid Area
 
 ## Getting Started with CSS Grid
 
-To use CSS Grid, we just need to define the container element as a grid.
+To use CSS Grid, we just need to define the container element as a Grid.
 
 ```
 display: grid;
@@ -31,12 +39,12 @@ display: grid;
 Then, we need to define the column and row sizes in the container element.
 
 ```
-grid-template-rows: repeat(3, 1fr);             // Creates 3 Rows
+grid-template-rows: repeat(3, 150px);             // Creates 3 Rows
 
-grid-template-columns: repeat(3, 1fr);          // Creates 3 Columns
+grid-template-columns: repeat(3, 150px);          // Creates 3 Columns
 ```
 
-Lastly, we need to position the child elements in the grid.
+Lastly, we need to position the child elements in the Grid.
 
 ```
 grid-row: 1 / 3;                                // Position elements from 1st Row to 3rd Row
