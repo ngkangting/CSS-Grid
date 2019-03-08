@@ -1,7 +1,7 @@
 {
-  "name": "CSS Grid Layout",
+  "name": "CSS-Grid",
   "version": "1.0.0",
-  "description": "CSS Grid Layout",
+  "description": "CSS Grid",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
