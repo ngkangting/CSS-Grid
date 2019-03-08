@@ -88,7 +88,7 @@ grid-column: 1 / 3;                             // Position elements from 1st Co
 
 ## CSS Grid Properties
 
-<img src="./img/GridLine.png" width="100" height="100" title="Grid Line Image">
+<img src="./img/CSS Properties.PNG" width="500px" height="500px" title="CSS Properties Image">
 
 ## CSS Grid Methods
 
