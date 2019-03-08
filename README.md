@@ -25,7 +25,8 @@ Element that is the direct child of the Grid Container
 ```
 The vertical and horizontal lines that divide the grid and separate the columns and rows.
 ```
-![Grid Line Image](/img/GridLine.png)
+
+<img src="./img/GridLine.png" width="256" height="256" title="Grid Line Image">
 
 - Grid Track
 
