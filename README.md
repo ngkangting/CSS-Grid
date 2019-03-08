@@ -37,7 +37,7 @@ The space between rows and columns in a grid.
 - Grid Cell
 
 ```
-The space between two adjacent row and two adjacent column Grid lines. Essentially, it is a single unit of the Grid.
+The space between two adjacent row and two adjacent column Grid lines. To sum up, it is a single unit of the Grid.
 ```
 
 - Grid Row
