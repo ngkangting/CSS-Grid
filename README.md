@@ -90,20 +90,20 @@ grid-column: 1 / 3;                             // Position elements from 1st Co
 
 ## CSS Grid Methods
 
-- Base Method
+- **Base Method**
 
     Basic way to create a grid is to declare grid-template-column. This property determines the number of items in a row. 
     
     The Grid items will automatically populate the grid container from top left to bottom right, based on the HTML source order, and will add rows as necessary.
 
-- List Method
+- **List Method**
 
-- Dynamic List Method
+- **Dynamic List Method**
 
-- Positioning with Numbers Method
+- **Positioning with Numbers Method**
 
-- Positioning with Names Method
+- **Positioning with Names Method**
 
-- Grid Areas Method
+- **Grid Areas Method**
 
-- Carousel Method
+- **Carousel Method**
