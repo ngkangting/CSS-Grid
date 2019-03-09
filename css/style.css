@@ -3,6 +3,34 @@
   padding: 50px 0;
   text-align: center; }
 
+.base {
+  background-color: #eee;
+  width: 1000px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-gap: 0; }
+  .base > * {
+    padding: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white; }
+
+.box--1 {
+  background-color: orangered; }
+
+.box--2 {
+  background-color: yellowgreen; }
+
+.box--3 {
+  background-color: blueviolet; }
+
+.box--4 {
+  background-color: palevioletred; }
+
+.box--5 {
+  background-color: royalblue; }
+
 .container {
   background-color: #eee;
   width: 1000px;

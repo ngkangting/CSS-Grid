@@ -9,55 +9,46 @@ To work with CSS Grid Layout, we need to apply CSS rules both to a parent elemen
 Before diving into the concepts of CSS Grid, it is important to understand the terminology as the terms are conceptually similar. Thus, to avoid confusion, it is worthwhile spending a few minutes understanding the CSS Grid Terminology.
 
 - Grid Container
-
 ```
 Parent element that holds the entire CSS Grid.
 ```
 
 - Grid Item
-
 ```
 Element that is the direct child of the Grid Container.
 ```
 
 - Grid Line
-
 ```
 The vertical and horizontal lines that divide the Grid and separate the columns and rows.
 ```
 
 - Gutter
-
 ```
 The space between rows and columns in a Grid.
 ```
 
 - Grid Cell
-
 ```
 The space between two adjacent row and two adjacent column Grid lines. To sum up, it is a single unit of the Grid.
 ```
 
 - Grid Row
-
 ```
 A horizontal track of a Grid.
 ```
 
 - Grid Column
-
 ```
 A vertical track of a Grid.
 ```
 
 - Grid Track
-
 ```
 The space between two adjacent Grid lines. This space can be horizontal or vertical.
 ```
 
 - Grid Area
-
 ```
 A rectangular space surrounded by four grid lines. A grid area can contain any number of grid cells.
 ```
@@ -65,13 +56,11 @@ A rectangular space surrounded by four grid lines. A grid area can contain any n
 ## Getting Started with CSS Grid
 
 To use CSS Grid, we just need to define the container element as a Grid.
-
 ```
 display: grid;
 ```
 
 Then, we need to define the column and row sizes in the container element.
-
 ```
 grid-template-rows: repeat(3, 150px);             // Creates 3 Rows
 
@@ -79,7 +68,6 @@ grid-template-columns: repeat(3, 150px);          // Creates 3 Columns
 ```
 
 Lastly, we need to position the child elements in the Grid.
-
 ```
 grid-row: 1 / 3;                                // Position elements from 1st Row to 3rd Row
 
@@ -92,7 +80,13 @@ grid-column: 1 / 3;                             // Position elements from 1st Co
 
 ## CSS Grid Methods
 
-- Base Method ()
+- Base Method
+```
+Basic way to create a grid is to declare grid-template-column. This property determines the number of items in a row.
+
+The Grid items will automatically populate the grid container from top left to bottom right, based on the HTML source order, and will add rows as necessary.
+```
+
 - Line Numbers
 - Line Names
 - Name Grid Areas

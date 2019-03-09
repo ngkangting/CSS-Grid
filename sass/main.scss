@@ -12,6 +12,57 @@
 
 
 
+
+// Base Method
+.base {
+    background-color: #eee;
+    width: 1000px;
+    margin: 30px auto;
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-gap:0;
+
+    & > * {
+        padding: 50px;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: white;
+    }
+}
+
+.box {
+    &--1 {
+        background-color: orangered;
+    }
+  
+    &--2 {
+        background-color: yellowgreen;
+    }
+
+    &--3 {
+        background-color: blueviolet;
+    }
+    
+    &--4 {
+        background-color: palevioletred;
+    }
+    
+    &--5 {
+        background-color: royalblue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// CSS Grid
 .container {
     background-color: #eee;
     width: 1000px;
@@ -86,6 +137,7 @@
         grid-column: 2 / 3;
     }
 }
+
 
 
 
