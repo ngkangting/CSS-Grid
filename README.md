@@ -84,7 +84,8 @@ grid-column: 1 / 3;                             // Position elements from 1st Co
 ```
 Basic way to create a grid is to declare grid-template-column. This property determines the number of items in a row.
 
-The Grid items will automatically populate the grid container from top left to bottom right, based on the HTML source order, and will add rows as necessary.
+The Grid items will automatically populate the grid container from top left to bottom right, 
+based on the HTML source order, and will add rows as necessary.
 ```
 
 - Line Numbers
