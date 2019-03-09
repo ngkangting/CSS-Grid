@@ -8,57 +8,57 @@ To work with CSS Grid Layout, we need to apply CSS rules both to a parent elemen
 
 Before diving into the concepts of CSS Grid, it is important to understand the terminology as the terms are conceptually similar. Thus, to avoid confusion, it is worthwhile spending a few minutes understanding the CSS Grid Terminology.
 
-- Grid Container
+- **Grid Container**
 ```
 Parent element that holds the entire CSS Grid.
 ```
 
-- Grid Item
+- **Grid Item**
 ```
 Element that is the direct child of the Grid Container.
 ```
 
-- Grid Line
+- **Grid Line**
 ```
 The vertical and horizontal lines that divide the Grid and separate the columns and rows.
 ```
 
-- Gutter
+- **Gutter**
 ```
 The space between rows and columns in a Grid.
 ```
 
-- Grid Cell
+- **Grid Cell**
 ```
 The space between two adjacent row and two adjacent column Grid lines. To sum up, it is a single unit of the Grid.
 ```
 
-- Grid Row
+- **Grid Row**
 ```
 A horizontal track of a Grid.
 ```
 
-- Grid Column
+- **Grid Column**
 ```
 A vertical track of a Grid.
 ```
 
-- Grid Track
+- **Grid Track**
 ```
 The space between two adjacent Grid lines. This space can be horizontal or vertical.
 ```
 
-- Grid Area
+- **Grid Area**
 ```
 A rectangular space surrounded by four grid lines. A grid area can contain any number of grid cells.
 ```
 
-- Explicit Grid
+- **Explicit Grid**
 ```
 Grid that are explicitly defined by template rows and template columns.
 ```
 
-- Implicit Grid
+- **Implicit Grid**
 ```
 Grid that is not defined by template rows and template columns.
 ```
