@@ -53,6 +53,16 @@ The space between two adjacent Grid lines. This space can be horizontal or verti
 A rectangular space surrounded by four grid lines. A grid area can contain any number of grid cells.
 ```
 
+- Explicit Grid
+```
+Explicitly define how rows and columns should look like. Defined by template rows and template columns
+```
+
+- Implicit Grid
+```
+Grid that is not defined by template rows and template columns.
+```
+
 ## Getting Started with CSS Grid
 
 To use CSS Grid, we just need to define the container element as a Grid.
@@ -95,7 +105,3 @@ The Grid items will automatically populate the grid container from top left to b
 - Grid Areas Method
 
 - Carousel Method
-
-## Author
-
-Benji Ng Kang Ting
