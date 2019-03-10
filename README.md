@@ -63,6 +63,10 @@ Grid that are explicitly defined by template rows and template columns.
 Grid that are not defined by template rows and template columns.
 ```
 
+## CSS Grid Properties
+
+<img src="./img/CSS Properties.PNG" width="1000px" height="500px" title="CSS Properties Image">
+
 ## Getting Started with CSS Grid
 
 To use CSS Grid, we just need to define the container element as a Grid.
@@ -84,10 +88,6 @@ grid-row: 1 / 3;                                // Position elements from 1st Ro
 grid-column: 1 / 3;                             // Position elements from 1st Column to 3rd Column
 ```
 
-## CSS Grid Properties
-
-<img src="./img/CSS Properties.PNG" width="1000px" height="500px" title="CSS Properties Image">
-
 ## CSS Grid Methods
 
 - **Base Method**
@@ -98,7 +98,7 @@ grid-column: 1 / 3;                             // Position elements from 1st Co
 
 - **List Method**
 
-    This method comprises of the **base method** and the **repeat() function**. With this method, it is easy to achieve a list sequence of items in a Grid. 
+    This method comprises of the **base method** and the **repeat() function**. Using this method, it is easier to achieve a list sequence of items in a Grid. 
     
     (This method is useful for responsive web design as the amount of items in a row can be determined easily for every responsive design breakpoint)
 
@@ -106,11 +106,11 @@ grid-column: 1 / 3;                             // Position elements from 1st Co
 
     This method is similar to the **List Method**, except that in the **Dynamic List Method**, the number of items in each row is dynamic, and may change according to the width of the view-port.
 
-    For this method, 2 new functions of CSS Grid will be used, the **repeat() function** and the **minmax() function**, together with new values of **auto-fit** / **auto-fill** and the stretching fraction unit **fr**.
+    For this method, 2 new functions of CSS Grid will be used, the **repeat() function** and the **minmax() function**, together with new values of **auto-fit**, **auto-fill** and the stretching fractional unit **fr**.
 
 - **Positioning with Numbers Method**
 
-    In every CSS Grid created, Grid lines are created automatically. Using these Grid lines, the position of the Grid items can be positioned in any square.
+    In every CSS Grid, Grid lines are created automatically. With these Grid lines, the position of Grid items can be easily positioned in any square of the CSS Grid.
 
     To position a Grid item, the following needs to be specified.
 
@@ -130,6 +130,6 @@ grid-column: 1 / 3;                             // Position elements from 1st Co
     grid-auto-flow: column;
     ```
 
-    Assuming a Grid is declared with **grid-auto-flow: column;**. Without declaring any rows, all the items will be in one straight long line as the number of rows have not been pre-defined.
+    Assuming a Grid is declared with **grid-auto-flow: column;**. Without declaring any rows, all the items will be positioned in one straight long line as the number of rows have not been pre-defined.
 
     This method is the CSS Grid equivalent of the no-wrap property, providing a quick and simple way of creating an image carousel.
