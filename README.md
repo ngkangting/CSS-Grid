@@ -130,6 +130,16 @@ grid-column: 1 / 3;                               // Position elements from 1st 
 
 - **Grid Areas Method**
 
+    Areas Method is the most important grid method of all. This utilization of CSS grid is basically the main reason CSS gird was invented. It’s the easiest way to create complex grid systems.
+
+    We start by creating the grid with the “base method”, defining the grid and the columns in each row.
+
+    And now comes the fun part! We create a “CSS Map” according to the amount of columns we defined.
+
+    We select a name for each area.
+
+    To populate these areas, we connect the grid items to the grid-area names.
+
 - **Carousel Method**
 
     In CSS Grid, the default flow of the items is to create a new row when there isn’t enough space in the current row, but this default behavior is changeable, and we can change it from row to column.
