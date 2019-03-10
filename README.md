@@ -125,7 +125,7 @@ grid-column: 1 / 3;                               // Position elements from 1st 
 
     ```
     grid-column: col-start 1 / grid-end;
-    grid-row: [header-start] / [footer-end];
+    grid-row: header-start / footer-end;
     ```
 
 - **Grid Areas Method**
