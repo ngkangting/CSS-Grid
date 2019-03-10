@@ -60,7 +60,7 @@ Grid that are explicitly defined by template rows and template columns.
 
 - **Implicit Grid**
 ```
-Grid that is not defined by template rows and template columns.
+Grid that are not defined by template rows and template columns.
 ```
 
 ## Getting Started with CSS Grid
@@ -92,13 +92,19 @@ grid-column: 1 / 3;                             // Position elements from 1st Co
 
 - **Base Method**
 
-    Basic way to create a grid is to declare grid-template-column. This property determines the number of items in a row. 
+    Basic way to create a grid is to declare **grid-template-column**. This property of **grid-template-column** helps to determine the number of items in a row. 
     
-    The Grid items will automatically populate the grid container from top left to bottom right, based on the HTML source order, and will add rows as necessary.
+    The Grid items will automatically populate the grid container from top left to bottom right, based on the HTML source order, and will add rows as necessary. 
 
 - **List Method**
 
+    Using the **base method** and the **repeat()** function, we can easily achieve a list sequence of items in a grid. 
+    
+    (The amount of items in a row can be determined easily for every responsive design breakpoint)
+
 - **Dynamic List Method**
+
+    This method is similar to the **List Method**, except that in the **Dynamic List Method**, the number of items in each row is dynamic, and may change according to the width of the view-port.
 
 - **Positioning with Numbers Method**
 
