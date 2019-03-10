@@ -50,7 +50,7 @@ The space between two adjacent Grid lines. This space can be horizontal or verti
 
 - **Grid Area**
 ```
-A rectangular space surrounded by four grid lines. A grid area can contain any number of grid cells.
+A rectangular space surrounded by four Grid lines. A Grid area can contain any number of Grid cells.
 ```
 
 - **Explicit Grid**
@@ -92,9 +92,9 @@ grid-column: 1 / 3;                             // Position elements from 1st Co
 
 - **Base Method**
 
-    Basic way to create a grid is to declare **grid-template-column**. By using the property of **grid-template-column**, it helps to determine the number of items in a row for a CSS Grid. 
+    Basic way to create a Grid is to declare **grid-template-column**. By using the property of **grid-template-column**, it helps to determine the number of items in a row for a CSS Grid. 
     
-    Once the number of items in a row is specified, the Grid items will be automatically populated in the grid container from top left to bottom right, based on the HTML source order. If the Grid items exceed the number of rows specified, CSS Grid will automatically add rows as necessary. 
+    Once the number of items in a row is specified, the Grid items will be automatically populated in the Grid container from top left to bottom right, based on the HTML source order. If the Grid items exceed the number of rows specified, CSS Grid will automatically add rows as necessary. 
 
 - **List Method**
 
