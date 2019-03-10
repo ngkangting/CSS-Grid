@@ -113,3 +113,13 @@ grid-column: 1 / 3;                             // Position elements from 1st Co
 - **Grid Areas Method**
 
 - **Carousel Method**
+
+    In CSS Grid, the default flow of the items is to create a new row when there isn’t enough space in the current row, but this default behavior is changeable, and we can change it from row to column.
+
+    ```
+    grid-auto-flow: column;
+    ```
+
+    Assuming a Grid is declared with **grid-auto-flow: column;**. Without declaring any rows, all the items will be in one straight long line as the number of rows have not been pre-defined.
+
+    This method is the CSS Grid equivalent of the no-wrap property, providing a quick and simple way of creating an image carousel.
