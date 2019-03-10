@@ -110,7 +110,7 @@ grid-column: 1 / 3;                               // Position elements from 1st 
 
     In every CSS Grid, Grid lines are created automatically. With these Grid lines, the position of Grid items can be easily positioned in any square of the CSS Grid by defining 4 grid lines for **grid-column** and **grid-row**.
 
-    By default, the Grid lines of CSS Grid are numbered. Thus, without making any changes, the numbers are used to defined the Starting and Ending line for a Grid item.
+    By default, the Grid lines of CSS Grid are numbered. Thus, without making any changes, the numbers can be used to define the Starting and Ending line for a Grid item.
 
     ```
     grid-column: 1 / 4;                           // 1 is the Starting line and -1 is the Ending line
@@ -119,11 +119,9 @@ grid-column: 1 / 3;                               // Position elements from 1st 
 
 - **Positioning with Names Method**
 
-    In every CSS Grid, Grid lines are created automatically. With these Grid lines, the position of Grid items can be easily positioned in any square of the CSS Grid by defining 4 grid lines for **grid-column** and **grid-row**.
+    Compared to **Positioning with Numbers Method**, this method differs by giving meaningful names for each individual line. By doing so, users will have an easier time understanding what each Grid line represents. 
 
-    For this method, the lines are named to bring meaning to each individual line. By doing so, users will have an easier time understanding what each Grid line represents. 
-
-    To name Grid lines, we need to edit **grid-template-rows** and **grid-template-columns**.
+    To name Grid lines, the code of **grid-template-rows** and **grid-template-columns** needs to be edited.
 
     ```
     grid-column: col-start 1 / grid-end;
