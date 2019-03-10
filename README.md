@@ -92,21 +92,31 @@ grid-column: 1 / 3;                             // Position elements from 1st Co
 
 - **Base Method**
 
-    Basic way to create a grid is to declare **grid-template-column**. The property of **grid-template-column** helps to determine the number of items in a row. 
+    Basic way to create a grid is to declare **grid-template-column**. By using the property of **grid-template-column**, it helps to determine the number of items in a row for a CSS Grid. 
     
-    The Grid items will automatically populate the grid container from top left to bottom right, based on the HTML source order, and will add rows as necessary. 
+    Once the number of items in a row is specified, the Grid items will be automatically populated in the grid container from top left to bottom right, based on the HTML source order. If the Grid items exceed the number of rows specified, CSS Grid will automatically add rows as necessary. 
 
 - **List Method**
 
-    Using the **base method** and the **repeat()** function, it is easy to achieve a list sequence of items in a grid. 
+    This method comprises of the **base method** and the **repeat() function**. With this method, it is easy to achieve a list sequence of items in a Grid. 
     
-    (The amount of items in a row can be determined easily for every responsive design breakpoint)
+    (This method is useful for responsive web design as the amount of items in a row can be determined easily for every responsive design breakpoint)
 
 - **Dynamic List Method**
 
     This method is similar to the **List Method**, except that in the **Dynamic List Method**, the number of items in each row is dynamic, and may change according to the width of the view-port.
 
+    For this method, 2 new functions of CSS Grid will be used, the **repeat() function** and the **minmax() function**, together with new values of **auto-fit** / **auto-fill** and the stretching fraction unit **fr**.
+
 - **Positioning with Numbers Method**
+
+    In every CSS Grid created, Grid lines are created automatically. Using these Grid lines, the position of the Grid items can be positioned in any square.
+
+    To position a Grid item, the following needs to be specified.
+
+    ```
+    4 grid lines, grid-column-start, grid-column-end, grid-row-start and grid-row-end.
+    ```
 
 - **Positioning with Names Method**
 
