@@ -83,9 +83,9 @@ grid-template-columns: repeat(3, 150px);          // Creates 3 Columns
 
 Lastly, we need to position the child elements in the Grid.
 ```
-grid-row: 1 / 3;                                // Position elements from 1st Row to 3rd Row
+grid-row: 1 / 3;                                  // Position elements from 1st Row to 3rd Row
 
-grid-column: 1 / 3;                             // Position elements from 1st Column to 3rd Column
+grid-column: 1 / 3;                               // Position elements from 1st Column to 3rd Column
 ```
 
 ## CSS Grid Methods
@@ -94,7 +94,7 @@ grid-column: 1 / 3;                             // Position elements from 1st Co
 
     Basic way to create a Grid is to declare **grid-template-column**. By using the property of **grid-template-column**, it helps to determine the number of items in a row for a CSS Grid. 
     
-    Once the number of items in a row is specified, the Grid items will be automatically populated in the Grid container from top left to bottom right, based on the HTML source order. If the Grid item exceeds the number of rows specified, CSS Grid will automatically add rows as necessary. 
+    Once the number of items in a row is specified, the Grid items will be automatically populated in the Grid container from top left to bottom right, based on the HTML source order. If the Grid item exceeds the number of rows specified, CSS Grid will automatically add rows when necessary. 
 
 - **List Method**
 
@@ -104,19 +104,31 @@ grid-column: 1 / 3;                             // Position elements from 1st Co
 
     This method is similar to the **List Method**, except that in the **Dynamic List Method**, the number of items in each row is dynamic, and may change according to the width of the view-port.
 
-    For this method, 2 new functions of CSS Grid will be used, the **repeat() function** and the **minmax() function**, together with new values of **auto-fit**, **auto-fill** and the stretching fractional unit **fr**.
+    For this method, 2 new functions of CSS Grid will be used, the **repeat() function** and the **minmax() function**, together with new values of **auto-fit**, **auto-fill** and the stretching fractional unit, **fr**.
 
 - **Positioning with Numbers Method**
 
-    In every CSS Grid, Grid lines are created automatically. With these Grid lines, the position of Grid items can be easily positioned in any square of the CSS Grid.
+    In every CSS Grid, Grid lines are created automatically. With these Grid lines, the position of Grid items can be easily positioned in any square of the CSS Grid by defining 4 grid lines for **grid-column** and **grid-row**.
 
-    To position a Grid item, the following needs to be specified.
+    By default, the Grid lines of CSS Grid are numbered. Thus, without making any changes, the numbers are used to defined the Starting and Ending line for a Grid item.
 
     ```
-    4 grid lines, grid-column-start, grid-column-end, grid-row-start and grid-row-end.
+    grid-column: 1 / 4;                           // 1 is the Starting line and -1 is the Ending line
+    grid-row: 1 / 4;                              // 1 is the Starting line and -1 is the Ending line
     ```
 
 - **Positioning with Names Method**
+
+    In every CSS Grid, Grid lines are created automatically. With these Grid lines, the position of Grid items can be easily positioned in any square of the CSS Grid by defining 4 grid lines for **grid-column** and **grid-row**.
+
+    For this method, the lines are named to bring meaning to each individual line. By doing so, users will have an easier time understanding what each Grid line represents. 
+
+    To name Grid lines, we need to edit **grid-template-rows** and **grid-template-columns**.
+
+    ```
+    grid-column: col-start 1 / grid-end;
+    grid-row: [header-start] / [footer-end];
+    ```
 
 - **Grid Areas Method**
 
