@@ -20,17 +20,22 @@ Element that is the direct child of the Grid Container.
 
 - **Grid Line**
 ```
-The vertical and horizontal lines that divide the Grid and separate the columns and rows.
+The horizontal and vertical lines that divide and separate the Grid into rows and columns.
 ```
 
 - **Gutter**
 ```
-The space between rows and columns in a Grid.
+The space between the rows and columns in a Grid.
 ```
 
 - **Grid Cell**
 ```
 The space between two adjacent row and two adjacent column Grid lines. To sum up, it is a single unit of the Grid.
+```
+
+- **Grid Track**
+```
+The space between two adjacent Grid lines. This space can be horizontal or vertical.
 ```
 
 - **Grid Row**
@@ -41,11 +46,6 @@ A horizontal track of a Grid.
 - **Grid Column**
 ```
 A vertical track of a Grid.
-```
-
-- **Grid Track**
-```
-The space between two adjacent Grid lines. This space can be horizontal or vertical.
 ```
 
 - **Grid Area**
