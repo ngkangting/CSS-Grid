@@ -137,11 +137,16 @@ grid-column: 1 / 3;                               // Position elements from 1st 
 
 - **Grid Areas Method**
 
-    Areas Method is the most important grid method of all. This utilization of CSS grid is basically the main reason CSS gird was invented. It’s the easiest way to create complex grid systems.
+    Grid Areas Method is the most important Grid method amongst all as it is the easiest way to create complex Grid systems.
 
-    We start by creating the grid with the “base method”, defining the grid and the columns in each row.
+    To use this method, we start by creating the Grid with the **Base Method**, defining columns and rows for the Grid. Then, a **CSS Map** needs to be created according to the amount of columns and rows defined with **grid-template-areas**.
 
-    And now comes the fun part! We create a “CSS Map” according to the amount of columns we defined.
+    ```
+    grid-template-areas: ". head head ."
+                         "box-1 box-2 box-3 side"
+                         "main main main side"
+                         "foot foot foot foot";
+    ```
 
     We select a name for each area.
 
