@@ -139,7 +139,7 @@ grid-column: 1 / 3;                               // Position elements from 1st 
 
     Grid Areas Method is the most important Grid method amongst all as it is the easiest way to create complex Grid systems.
 
-    To use this method, we start by creating the Grid with the **Base Method**, defining columns and rows for the Grid. Then, a **CSS Map** needs to be created according to the amount of columns and rows defined with **grid-template-areas**.
+    To use this method, we start by creating the Grid with the **Base Method**, defining columns and rows for the Grid. Then, a **CSS Map** needs to be created according to the amount of columns and rows defined with the code, **grid-template-areas**.
 
     ```
     grid-template-areas: ". head head ."
