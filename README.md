@@ -121,12 +121,16 @@ grid-column: 1 / 3;                               // Position elements from 1st 
 
     Compared to **Positioning with Numbers Method**, this method differs by giving meaningful names for each individual line. By doing so, users will have a better understanding of what each Grid line represents. Thereby, helping users to easily define the Starting and Ending line for a Grid item.
 
-    To name Grid lines, the code of **grid-template-rows** and **grid-template-columns** needs to be edited.
+    To name Grid lines, the code of **grid-template-rows** and **grid-template-columns** needs to be edited. The following code shows an example of how Grid lines are named.
 
     ```
-    grid-template-rows: [header-start] 100px [header-end box-start] 200px [box-end main-start] 400px [main-end footer-start] 100px [footer-end];
+    grid-template-rows: [header-start] 100px [header-end box-start] 200px [box-end];
     grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 200px [grid-end];
+    ```
 
+    After naming the lines in **grid-template-rows** and **grid-template-columns**, the name can be used to define the Starting and Ending line for a Grid item.
+
+    ```
     grid-column: col-start 1 / grid-end;
     grid-row: header-start / footer-end;
     ```
