@@ -119,7 +119,7 @@ grid-column: 1 / 3;                               // Position elements from 1st 
 
 - **Positioning with Names Method**
 
-    Compared to **Positioning with Numbers Method**, this method differs by giving meaningful names for each individual line. By doing so, users will have an easier time understanding what each Grid line represents. 
+    Compared to **Positioning with Numbers Method**, this method differs by giving meaningful names for each individual line. By doing so, users will have a better understanding of what each Grid line represents. Thereby, helping users to easily define the Starting and Ending line for a Grid item.
 
     To name Grid lines, the code of **grid-template-rows** and **grid-template-columns** needs to be edited.
 
