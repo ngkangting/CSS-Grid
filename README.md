@@ -124,6 +124,9 @@ grid-column: 1 / 3;                               // Position elements from 1st 
     To name Grid lines, the code of **grid-template-rows** and **grid-template-columns** needs to be edited.
 
     ```
+    grid-template-rows: [header-start] 100px [header-end box-start] 200px [box-end main-start] 400px [main-end footer-start] 100px [footer-end];
+    grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 200px [grid-end];
+
     grid-column: col-start 1 / grid-end;
     grid-row: header-start / footer-end;
     ```
