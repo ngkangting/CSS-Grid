@@ -137,20 +137,20 @@ grid-column: 1 / 3;                               // Position elements from 1st 
 
 - **Grid Areas Method**
 
-    Grid Areas Method is the most important Grid method amongst all as it is the easiest way to create complex Grid systems.
+    Grid Areas Method is the most important Grid method amongst all as it is the easiest way to create complex Grid systems. Another advantage of this method is that the layout is first planned before positioning the Grid Items.
 
-    To use this method, we start by creating the Grid with the **Base Method**, defining columns and rows for the Grid. Then, a **CSS Map** needs to be created according to the amount of columns and rows defined with the property, **grid-template-areas**.
+    To use this method, we start by creating the Grid with the **Base Method**, defining columns and rows for the Grid. Then, a **CSS Map** / **Template String** needs to be created according to the amount of columns and rows defined with the property, **grid-template-areas**.
+
+    In every **CSS Map** defined, each Grid Cell must be named. For Grid Cell with identical names, they will be grouped to form a Grid Area. Then, to populate the areas, the Grid Item will connected with the Grid Area name using the property of **grid-area**.
 
     ```
     grid-template-areas: ". head head ."
                          "box-1 box-2 box-3 side"
                          "main main main side"
                          "foot foot foot foot";
+
+    grid-area: head;
     ```
-
-    We select a name for each area.
-
-    To populate these areas, we connect the grid items to the grid-area names.
 
 - **Carousel Method**
 
