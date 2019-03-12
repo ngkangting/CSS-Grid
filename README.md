@@ -94,7 +94,7 @@ grid-column: 1 / 3;                               // Position elements from 1st 
 
     Basic way to create a Grid is to declare **grid-template-column**. By using the property of **grid-template-column**, it helps to determine the number of items in a row for a CSS Grid. 
     
-    Once the number of items in a row is specified, the Grid items will be automatically populated in the Grid container from top left to bottom right, based on the HTML source order. If the Grid item exceeds the number of rows specified, CSS Grid will automatically add rows when necessary. 
+    Once the number of items in a row is specified, the Grid items will be automatically populated in the Grid container from top left to bottom right, based on the HTML source order. If the Grid item exceeds the number of rows specified, CSS Grid will automatically add rows as and when necessary. 
 
 - **List Method**
 
@@ -162,6 +162,6 @@ grid-column: 1 / 3;                               // Position elements from 1st 
     grid-auto-flow: column;
     ```
 
-    Assuming a Grid is declared with **grid-auto-flow: column;**. Without declaring any rows, all the items will be positioned in one straight long line as the number of rows have not been pre-defined.
+    Assuming a Grid is declared with **grid-auto-flow: column;** Without declaring any rows, all the items will be positioned in one straight long line as the number of rows have not been pre-defined.
 
     This method is the CSS Grid equivalent of the no-wrap property, providing a quick and simple way of creating an image carousel.
