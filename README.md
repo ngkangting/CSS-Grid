@@ -150,6 +150,8 @@ grid-column: 1 / 3;                               // Position elements from 1st 
                          "foot foot foot foot";
 
     grid-area: head;
+    grid-area: main;
+    grid-area: foot;
     ```
 
 - **Carousel Method**
