@@ -104,7 +104,7 @@ grid-column: 1 / 3;                               // Position elements from 1st 
 
     This method is similar to the **List Method**, except that in the **Dynamic List Method**, the number of items in each row is dynamic, and may change according to the width of the view-port.
 
-    For this method, 2 new functions of CSS Grid will be used, the **repeat() function** and the **minmax() function**, together with new values of **auto-fit**, **auto-fill** and the stretching fractional unit, **fr**.
+    For this method, 2 new functions of CSS Grid will be used, the **repeat() function** and the **minmax() function**, together with new values of **auto-fit**, **auto-fill** and the stretching fraction unit, **fr**.
 
 - **Positioning with Numbers Method**
 
