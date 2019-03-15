@@ -141,6 +141,7 @@
 
 
 
+// Positioning with Names Method
 .names {
     width: 1000px;
     margin: 30px auto;
@@ -181,84 +182,7 @@
 
 
 
-// Method 1: Line Numbers
-/*
-.challenge {
-    width: 1000px;
-    margin: 30px auto;
-    
-    display: grid;
-    grid-template-rows: 100px 200px 400px 100px;
-    grid-template-columns: repeat(3, 1fr) 200px;
-    grid-gap: 30px;
-  
-    & > * {
-        background-color: orangered;
-        padding: 20px;
-        color: #fff;
-        font-size: 30px;
-        font-family: sans-serif;
-    }
-  
-    .header {
-        grid-column: 1 / -1;
-    }
-    
-    .sidebar {
-        grid-column: 4 / 5;
-        grid-row: 2 / span 2;
-    }
-    
-    .main-content {
-        grid-column: 1 / span 3;
-    }
-    
-    .footer {
-        grid-column: 1 / -1;
-    }
-}
-*/
-
-// Method 2: Line Names
-/*
-.challenge {
-    width: 1000px;
-    margin: 30px auto;
-    
-    display: grid;
-    grid-template-rows: [header-start] 100px [header-end box-start] 200px [box-end main-start] 400px [main-end footer-start] 100px [footer-end];
-    
-    grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 200px [grid-end];
-    grid-gap: 30px;
-    
-    & > * {
-        background-color: orangered;
-        padding: 20px;
-        color: #fff;
-        font-size: 30px;
-        font-family: sans-serif;
-    }
-    
-    .header {
-        grid-column: col-start 1 / grid-end;
-    }
-    
-    .sidebar {
-        grid-column: col-end 3 / grid-end;
-        grid-row: box-start / main-end;
-    }
-    
-    .main-content {
-        grid-column: col-start 1 / col-end 3;
-    }
-    
-    .footer {
-        grid-column: col-start 1 / grid-end;
-    }
-}
-*/
-
-// Method 3: Name Grid Areas
+// Grid Areas Method
 
 .challenge {
     width: 1000px;
@@ -472,18 +396,90 @@
     
     display: grid;
 
-    
     // Using min-content and max-content
-    // grid-template-rows: repeat(2, 150px);
-    // grid-template-columns: max-content 1fr 1fr min-content;
-    // grid-template-rows: repeat(2, min-content);
+    grid-template-rows: repeat(2, 150px);
+    grid-template-columns: max-content 1fr 1fr min-content;
+    grid-template-rows: repeat(2, min-content);
+
+    // Using minmax() function
+    // width: 90%;
+    // grid-template-rows: repeat(2, minmax(150px, min-content));
+    // grid-template-columns: minmax(200px, 50%) repeat(3, 1fr);
+    
+    // Using auto-fill and auto-fit
+    // width: 90%;
+    // grid-template-rows: repeat(2, minmax(150px, min-content));
+    // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    // grid-auto-rows: 150px;
+
+    .itemss {
+        padding: 10px;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 30px;
+        background-color: orangered;
+
+        &--1 { background-color: orangered; }
+        &--2 { background-color: yellowgreen; }
+        &--3 { background-color: blueviolet; }
+        &--4 { background-color: palevioletred; }
+        &--5 { background-color: royalblue; }
+        &--6 { background-color: goldenrod; }
+        &--7 { background-color: crimson; }
+        &--8 { background-color: darkslategrey; }
+    }
+}
+
+
+
+
+
+.container-3 {
+    margin: 30px auto;
+    background-color: #ddd;
+    
+    display: grid;
 
     // Using minmax() function
     width: 90%;
     grid-template-rows: repeat(2, minmax(150px, min-content));
     grid-template-columns: minmax(200px, 50%) repeat(3, 1fr);
 
-    .itemse {
+    .itemsss {
+        padding: 10px;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 30px;
+        background-color: orangered;
+
+        &--1 { background-color: orangered; }
+        &--2 { background-color: yellowgreen; }
+        &--3 { background-color: blueviolet; }
+        &--4 { background-color: palevioletred; }
+        &--5 { background-color: royalblue; }
+        &--6 { background-color: goldenrod; }
+        &--7 { background-color: crimson; }
+        &--8 { background-color: darkslategrey; }
+    }
+}
+
+
+
+
+
+.container-4 {
+    margin: 30px auto;
+    background-color: #ddd;
+    
+    display: grid;
+    
+    // Using auto-fill and auto-fit
+    width: 90%;
+    grid-template-rows: repeat(2, minmax(150px, min-content));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 150px;
+
+    .itemssss {
         padding: 10px;
         color: #fff;
         font-family: sans-serif;
