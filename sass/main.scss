@@ -400,3 +400,103 @@
         grid-column: 2 / 3;
     }
 }
+
+
+
+
+
+.container-1 {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: #ddd;
+    
+    display: grid;
+    // grid-template-rows: repeat(2, 150px);
+    // grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    
+    grid-auto-rows: 80px;
+    grid-auto-flow: row dense;
+    grid-auto-columns: .5fr;
+    
+    // Align Grid Items To Grid Areas
+    // align-items: center; // Stretch / Center / End / Start
+    // justify-items: center;
+    
+
+    // Align Grid Tracks To Grid Container
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(2, 200px);
+    height: 1000px;
+
+    justify-content: center; // Center / Start / End / Space-Between / Space-Around / Space-Evenly
+    align-content: center;
+
+
+
+    .items {
+        padding: 10px;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 30px;
+        background-color: orangered;
+        
+        &--4 {
+            background-color: crimson;
+            grid-row: 2 / span 3;
+            
+            // align-self: start;
+            // justify-self: start;
+        }
+      
+        &--6 {
+            background-color: lightcoral;
+            grid-row: 2 / span 2;
+        }
+
+        &--7 {
+            background-color: palevioletred;
+            grid-column: 1 / -1;
+        }
+    }
+}
+
+
+
+
+
+.container-2 {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: #ddd;
+    
+    display: grid;
+
+    
+    // Using min-content and max-content
+    // grid-template-rows: repeat(2, 150px);
+    // grid-template-columns: max-content 1fr 1fr min-content;
+    // grid-template-rows: repeat(2, min-content);
+
+    // Using minmax() function
+    width: 90%;
+    grid-template-rows: repeat(2, minmax(150px, min-content));
+    grid-template-columns: minmax(200px, 50%) repeat(3, 1fr);
+
+    .itemse {
+        padding: 10px;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 30px;
+        background-color: orangered;
+
+        &--1 { background-color: orangered; }
+        &--2 { background-color: yellowgreen; }
+        &--3 { background-color: blueviolet; }
+        &--4 { background-color: palevioletred; }
+        &--5 { background-color: royalblue; }
+        &--6 { background-color: goldenrod; }
+        &--7 { background-color: crimson; }
+        &--8 { background-color: darkslategrey; }
+    }
+}

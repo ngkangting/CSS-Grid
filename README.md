@@ -63,6 +63,11 @@ Grid that are explicitly defined by template rows and template columns.
 Grid that are not defined by template rows and template columns.
 ```
 
+- **Fractional Unit**
+```
+A unit that fills up the entire remaining space but it is never smaller than the minimum content of a row or a column. If the content gets too wide, the fractional unit will take the minimum width that needs to fill the column without overflowing.
+```
+
 ## CSS Grid Properties
 
 <img src="./img/CSS Properties.PNG" width="1000px" height="500px" title="CSS Properties Image">
