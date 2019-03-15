@@ -63,11 +63,6 @@ Grid that are explicitly defined by template rows and template columns.
 Grid that are not defined by template rows and template columns.
 ```
 
-- **Fractional Unit**
-```
-A unit that fills up the entire remaining space but it is never smaller than the minimum content of a row or a column. If the content gets too wide, the fractional unit will take the minimum width that needs to fill the column without overflowing.
-```
-
 ## CSS Grid Properties
 
 <img src="./img/CSS Properties.PNG" width="1000px" height="500px" title="CSS Properties Image">
@@ -110,6 +105,8 @@ grid-column: 1 / 3;                               // Position elements from 1st 
     This method is similar to the **List Method**, except that in the **Dynamic List Method**, the number of items in each row is dynamic, and may change according to the width of the view-port.
 
     For this method, 2 new functions of CSS Grid will be used, the **repeat() function** and the **minmax() function**, together with new values of **auto-fit**, **auto-fill** and the stretching fraction unit, **fr**.
+
+    Fractional unit is a unit that fills up the entire remaining space but it will never fill space that is smaller than the minimum content of a row or a column. If the content gets too wide, the fractional unit will take the minimum width that needs to fill the column without overflowing.
 
 - **Positioning with Numbers Method**
 
