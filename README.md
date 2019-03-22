@@ -30,7 +30,7 @@ The space between the rows and columns in a Grid.
 
 - **Grid Cell**
 ```
-The space between two adjacent row and two adjacent column Grid lines. To sum up, it is a single unit of the Grid.
+The space between two adjacent row and two adjacent column Grid lines. To sum up, it's a single unit of the Grid.
 ```
 
 - **Grid Track**
